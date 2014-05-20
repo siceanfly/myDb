@@ -1,0 +1,33 @@
+autoscan: warning: missing AC_CHECK_FUNCS([gethostbyname]) wanted by: 
+	oss/ossSocket.cpp:58
+	oss/ossSocket.cpp:143
+autoscan: warning: missing AC_CHECK_FUNCS([gethostname]) wanted by: 
+	oss/ossSocket.cpp:679
+autoscan: warning: missing AC_CHECK_FUNCS([gettimeofday]) wanted by: 
+	pd/pd.cpp:117
+autoscan: warning: missing AC_CHECK_FUNCS([select]) wanted by: 
+	oss/ossSocket.cpp:214
+	oss/ossSocket.cpp:302
+	oss/ossSocket.cpp:407
+	oss/ossSocket.cpp:542
+	oss/ossSocket.cpp:572
+autoscan: warning: missing AC_CHECK_FUNCS([socket]) wanted by: 
+	oss/ossSocket.cpp:106
+autoscan: warning: missing AC_CHECK_HEADERS([arpa/inet.h]) wanted by: 
+	include/ossSocket.hpp:23
+	include/core.hpp:36
+autoscan: warning: missing AC_CHECK_HEADERS([fcntl.h]) wanted by: 
+	include/core.hpp:29
+autoscan: warning: missing AC_CHECK_HEADERS([netdb.h]) wanted by: 
+	include/ossSocket.hpp:25
+	include/core.hpp:37
+autoscan: warning: missing AC_CHECK_HEADERS([netinet/in.h]) wanted by: 
+	include/ossSocket.hpp:22
+	include/core.hpp:35
+autoscan: warning: missing AC_CHECK_HEADERS([sys/socket.h]) wanted by: 
+	include/ossSocket.hpp:21
+	include/core.hpp:34
+autoscan: warning: missing AC_CHECK_HEADERS([sys/time.h]) wanted by: 
+	include/core.hpp:24
+autoscan: warning: missing AC_TYPE_SSIZE_T wanted by: 
+	oss/ossPrimitiveFileOp.cpp:126
